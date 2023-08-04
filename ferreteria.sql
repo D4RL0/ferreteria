@@ -63,7 +63,7 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`id_cli`, `cedula_cli`, `apellido_cli`, `nombre_cli`, `telefono_cli`, `direccion_cli`, `email_cli`) VALUES
-(1, '0987654321', 'Coyag', 'Migue', '1234567890', 'Cayamb', 'miguel@gmail.co');
+(1, '1721266581', 'Quinaluisa', 'Leonardo', '3118251', 'Quito', 'leo@gmail.co');
 
 -- --------------------------------------------------------
 
@@ -110,8 +110,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usu`, `email_usu`, `password_usu`, `apellido_usu`, `nombre_usu`, `perfil_usu`, `creacion_usu`, `actualizacion_usu`) VALUES
-(1, 'miguel@gmail.com', '123', 'Coyago', 'Miguel', 'ADMINISTRADOR', '2023-01-05 10:55:18', '2023-01-05 10:55:18'),
-(2, 'david@gmail.com', '123', 'Quintana', 'David', 'SECRETARIA', '2023-01-05 10:56:05', '2023-01-05 10:56:05');
+(1, 'david@gmail.com', '123', 'Quinaluisa', 'Miguel', 'ADMINISTRADOR', '2023-01-05 10:55:18', '2023-01-05 10:55:18'),
+(2, 'stalin@gmail.com', '123', 'Manoba', 'Stalin', 'SECRETARIA', '2023-01-05 10:56:05', '2023-01-05 10:56:05');
 
 --
 -- Indexes for dumped tables
