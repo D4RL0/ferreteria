@@ -13,7 +13,7 @@
              'smtp_port' => '587',
              '_smtp_auth'=>TRUE,
              'smtp_crypto' => 'tls',
-             'smtp_user' => 'miguel.coyago2555@utc.edu.ec',
+             'smtp_user' => 'leonardo.quinaluisa6581@utc.edu.ec',
              'smtp_pass' => 'Ghostblade1',
              'mailtype' => 'html',
              'send_multipart' => TRUE,
@@ -32,7 +32,7 @@
            //definiendo saltos de linea en el contenido del email
            $CI->email->set_newline("\r\n");
            //Definiendo el email del cual va a salir el correo (Remitente)
-           $CI->email->from("miguel.coyago@utc.edu.ec");
+           $CI->email->from("leonardo.quinaluisa6581@utc.edu.ec");
            //Definiendo el email a donde va a llegar el correo (Destinatario)
            $CI->email->to($emailDestinatario);
            //Definiendo el asunto
