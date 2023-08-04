@@ -110,7 +110,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usu`, `email_usu`, `password_usu`, `apellido_usu`, `nombre_usu`, `perfil_usu`, `creacion_usu`, `actualizacion_usu`) VALUES
-(1, 'david@gmail.com', '123', 'Quinaluisa', 'Miguel', 'ADMINISTRADOR', '2023-01-05 10:55:18', '2023-01-05 10:55:18'),
+(1, 'david@gmail.com', '123', 'Quinaluisa', 'David', 'ADMINISTRADOR', '2023-01-05 10:55:18', '2023-01-05 10:55:18'),
 (2, 'stalin@gmail.com', '123', 'Manoba', 'Stalin', 'SECRETARIA', '2023-01-05 10:56:05', '2023-01-05 10:56:05');
 
 --
